@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+BINHANDLE_H	./Auxiliary/binhandle.h	/^#define BINHANDLE_H$/;"	d
+EHDR	./utility.h	/^typedef struct ethhdr EHDR;$/;"	t	typeref:struct:ethhdr
+GetDGRAMSocket	./RawSocket.cpp	/^SOCKET GetDGRAMSocket(const char * IfaceName, int Protocol ) $/;"	f	typeref:typename:SOCKET
+GetDGRAMSocket	RawSocket.cpp	/^SOCKET GetDGRAMSocket(const char * IfaceName, int Protocol ) $/;"	f	typeref:typename:SOCKET
+GetDataGramInfo	RawSocket.cpp	/^void GetDataGramInfo(const void * phdr)$/;"	f	typeref:typename:void
+GetRAWSocket	./RawSocket.cpp	/^SOCKET GetRAWSocket(const char * IfaceName, int Protocol ) $/;"	f	typeref:typename:SOCKET
+GetRAWSocket	RawSocket.cpp	/^SOCKET GetRAWSocket(const char * IfaceName, int Protocol ) $/;"	f	typeref:typename:SOCKET
+HEXDUMP_H	./Auxiliary/hexdump.h	/^#define HEXDUMP_H$/;"	d
+IFREQ	./RawSocket.cpp	/^typedef struct ifreq IFREQ;$/;"	t	typeref:struct:ifreq	file:
+IFREQ	RawSocket.cpp	/^typedef struct ifreq IFREQ;$/;"	t	typeref:struct:ifreq	file:
+IPHdr	ip.h	/^} __attribute__((packed))IPHdr, *pIPHdr ;$/;"	t	typeref:struct:_IP_HEADER
+IP_H	ip.h	/^#define IP_H$/;"	d
+List_IF	./utility.cpp	/^void List_IF()$/;"	f	typeref:typename:void
+PAD_FOR_UNPRINT	./Auxiliary/hexdump.h	/^#define PAD_FOR_UNPRINT /;"	d
+RAWSOCKET_CPP	./RawSocket.cpp	/^#define RAWSOCKET_CPP$/;"	d	file:
+RAWSOCKET_CPP	RawSocket.cpp	/^#define RAWSOCKET_CPP$/;"	d	file:
+Raw Socket Dev log	./progress.md	/^# Raw Socket Dev log$/;"	c
+RecvFromMac	./RawSocket.cpp	/^int RecvFromMac(SOCKET fd,  string MAC, pbyte  buffer, int count)$/;"	f	typeref:typename:int
+RecvFromMac	RawSocket.cpp	/^int RecvFromMac(SOCKET fd,  string MAC, pbyte  buffer, int count)$/;"	f	typeref:typename:int
+SADDR	./RawSocket.cpp	/^typedef struct sockaddr_ll SADDR;$/;"	t	typeref:struct:sockaddr_ll	file:
+SADDR	RawSocket.cpp	/^typedef struct sockaddr_ll SADDR;$/;"	t	typeref:struct:sockaddr_ll	file:
+SOCKET	./RawSocket.cpp	/^typedef int SOCKET;$/;"	t	typeref:typename:int	file:
+SOCKET	RawSocket.cpp	/^typedef int SOCKET;$/;"	t	typeref:typename:int	file:
+SendToMAC	./RawSocket.cpp	/^int SendToMAC(SOCKET fd, const string MAC, const pbyte buffer, int count )$/;"	f	typeref:typename:int
+SendToMAC	RawSocket.cpp	/^int SendToMAC(SOCKET fd, const string MAC, const pbyte buffer, int count )$/;"	f	typeref:typename:int
+_IP_HEADER	ip.h	/^typedef struct _IP_HEADER $/;"	s
+_RAWSOCKET_H_	./RawSocket.h	/^#define _RAWSOCKET_H_$/;"	d
+_RAWSOCKET_H_	RawSocket.h	/^#define _RAWSOCKET_H_$/;"	d
+__main	./RawSocket.cpp	/^int __main()$/;"	f	typeref:typename:int
+__main	RawSocket.cpp	/^int __main()$/;"	f	typeref:typename:int
+_utility_h	./utility.h	/^#define _utility_h$/;"	d
+byte	./RawSocket.cpp	/^typedef unsigned char byte,*pbyte;$/;"	t	typeref:typename:unsigned char	file:
+byte	./utility.cpp	/^typedef unsigned char byte,*pbyte;$/;"	t	typeref:typename:unsigned char	file:
+byte	RawSocket.cpp	/^typedef unsigned char byte,*pbyte;$/;"	t	typeref:typename:unsigned char	file:
+canPrint	./Auxiliary/hexdump.h	/^int canPrint(unsigned char c)$/;"	f	typeref:typename:int
+check	ip.h	/^	short check;$/;"	m	struct:_IP_HEADER	typeref:typename:short
+crc32	./Auxiliary/crc32.h	/^uint32_t crc32(const uint8_t *bytes, uint32_t bytes_sz )$/;"	f	typeref:typename:uint32_t
+crctable	./Auxiliary/crc32.h	/^const uint32_t crctable[] = {$/;"	v	typeref:typename:const uint32_t[]
+daddr	ip.h	/^	unsigned int daddr;$/;"	m	struct:_IP_HEADER	typeref:typename:unsigned int
+frag_off	ip.h	/^	short frag_off;$/;"	m	struct:_IP_HEADER	typeref:typename:short
+getCurrentTimestamp	./utility.cpp	/^uint64_t getCurrentTimestamp()$/;"	f	typeref:typename:uint64_t
+gsaddr	./RawSocket.cpp	/^SADDR gsaddr;$/;"	v	typeref:typename:SADDR
+gsaddr	RawSocket.cpp	/^SADDR gsaddr;$/;"	v	typeref:typename:SADDR
+hdrlen	ip.h	/^	char   hdrlen:4 ,$/;"	m	struct:_IP_HEADER	typeref:typename:char:4
+hexdump	./Auxiliary/hexdump.h	/^void hexdump(unsigned char const * buf, sizet cnt)$/;"	f	typeref:typename:void
+id	ip.h	/^	short id;$/;"	m	struct:_IP_HEADER	typeref:typename:short
+integer	./Auxiliary/binhandle.h	/^long long int integer(const T str,  int type)$/;"	f	typeref:typename:long long int
+integer	./utility.cpp	/^long long int integer(const T str,  int type)$/;"	f	typeref:typename:long long int
+main	main.cpp	/^int main()$/;"	f	typeref:typename:int
+pIPHdr	ip.h	/^} __attribute__((packed))IPHdr, *pIPHdr ;$/;"	t	typeref:struct:_IP_HEADER *
+pbyte	./RawSocket.cpp	/^typedef unsigned char byte,*pbyte;$/;"	t	typeref:typename:unsigned char *	file:
+pbyte	./utility.cpp	/^typedef unsigned char byte,*pbyte;$/;"	t	typeref:typename:unsigned char *	file:
+pbyte	RawSocket.cpp	/^typedef unsigned char byte,*pbyte;$/;"	t	typeref:typename:unsigned char *	file:
+prog_pat	./RawSocket.cpp	/^struct sock_filter prog_pat []={$/;"	v	typeref:struct:sock_filter[]
+prog_pat	RawSocket.cpp	/^struct sock_filter prog_pat []={$/;"	v	typeref:struct:sock_filter[]
+protocol	ip.h	/^	char protocol;$/;"	m	struct:_IP_HEADER	typeref:typename:char
+saddr	ip.h	/^	unsigned int saddr;$/;"	m	struct:_IP_HEADER	typeref:typename:unsigned int
+set_ethhdr	./utility.cpp	/^inline int set_ethhdr( EHDR * const hdr, std::string dst, std::string src, unsigned short protoc/;"	f	typeref:typename:int
+set_mac	./RawSocket.cpp	/^static inline void set_mac(pbyte dest, string mac)$/;"	f	typeref:typename:void	file:
+set_mac	./utility.cpp	/^inline void set_mac(pbyte dest, std::string mac)$/;"	f	typeref:typename:void
+set_mac	RawSocket.cpp	/^static inline void set_mac(pbyte dest, string mac)$/;"	f	typeref:typename:void	file:
+sizet	./Auxiliary/hexdump.h	/^#define sizet /;"	d
+string_format	./Auxiliary/hexdump.h	/^std::string string_format(const std::string fmt_str, ...) $/;"	f	typeref:typename:std::string
+tos	ip.h	/^	char tos;$/;"	m	struct:_IP_HEADER	typeref:typename:char
+tot_len	ip.h	/^	short tot_len;$/;"	m	struct:_IP_HEADER	typeref:typename:short
+ttl	ip.h	/^	char ttl;$/;"	m	struct:_IP_HEADER	typeref:typename:char
+ver	ip.h	/^	       ver:4;$/;"	m	struct:_IP_HEADER	typeref:typename:char:4
